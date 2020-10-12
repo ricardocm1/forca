@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822A080AC846BFADC59F7050 /* Pods_Forca_ForcaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C72B6AEF862E6D7B247963 /* Pods_Forca_ForcaUITests.framework */; };
+		D144E4E32531DC2900187EAC /* JogoDaForcaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144E4E22531DC2900187EAC /* JogoDaForcaTests.swift */; };
+		D144E4F02531DE9C00187EAC /* String+Comparavel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144E4EF2531DE9C00187EAC /* String+Comparavel.swift */; };
+		D144E4F52531DF5900187EAC /* Character+Comparavel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144E4F42531DF5900187EAC /* Character+Comparavel.swift */; };
+		D16FBE7C252D01420002F08D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBE7B252D01420002F08D /* AppDelegate.swift */; };
+		D16FBE7E252D01420002F08D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBE7D252D01420002F08D /* SceneDelegate.swift */; };
+		D16FBE80252D01420002F08D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBE7F252D01420002F08D /* ViewController.swift */; };
+		D16FBE83252D01420002F08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16FBE81252D01420002F08D /* Main.storyboard */; };
+		D16FBE85252D01450002F08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16FBE84252D01450002F08D /* Assets.xcassets */; };
+		D16FBE88252D01450002F08D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16FBE86252D01450002F08D /* LaunchScreen.storyboard */; };
+		D16FBE93252D01450002F08D /* ForcaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBE92252D01450002F08D /* ForcaTests.swift */; };
+		D16FBE9E252D01450002F08D /* ForcaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBE9D252D01450002F08D /* ForcaUITests.swift */; };
+		D16FBEAF252D1DEC0002F08D /* UIViewController+Teclado.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBEAE252D1DEC0002F08D /* UIViewController+Teclado.swift */; };
+		D1943510252FABA50055FD5A /* String+AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D194350F252FABA50055FD5A /* String+AttributedText.swift */; };
+		D1943519252FB06D0055FD5A /* JogoDaForca.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1943518252FB06D0055FD5A /* JogoDaForca.swift */; };
+		D1943521252FBAF00055FD5A /* Funcoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1943520252FBAF00055FD5A /* Funcoes.swift */; };
+		FCC3C204D66756FD2EF7F42D /* Pods_Forca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5196CBAC3160BBB2E5DA84 /* Pods_Forca.framework */; };
+		FF4C0E9DF09719204D796C7E /* Pods_ForcaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6665B7CCBA0C3ECFF6155E7A /* Pods_ForcaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D16FBE8F252D01450002F08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D16FBE70252D01420002F08D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D16FBE77252D01420002F08D;
+			remoteInfo = Forca;
+		};
+		D16FBE9A252D01450002F08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D16FBE70252D01420002F08D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D16FBE77252D01420002F08D;
+			remoteInfo = Forca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		365BCFB9AB967F0D10B7FCD1 /* Pods-Forca-ForcaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forca-ForcaUITests.release.xcconfig"; path = "Target Support Files/Pods-Forca-ForcaUITests/Pods-Forca-ForcaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AFECEDACE4EB30BCB3BA796 /* Pods-ForcaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForcaTests.debug.xcconfig"; path = "Target Support Files/Pods-ForcaTests/Pods-ForcaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6665B7CCBA0C3ECFF6155E7A /* Pods_ForcaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForcaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C72B6AEF862E6D7B247963 /* Pods_Forca_ForcaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forca_ForcaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7414F2D7588B611DA87E16A2 /* Pods-Forca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forca.release.xcconfig"; path = "Target Support Files/Pods-Forca/Pods-Forca.release.xcconfig"; sourceTree = "<group>"; };
+		7D5196CBAC3160BBB2E5DA84 /* Pods_Forca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD71E529677CEB2FCD881F1A /* Pods-ForcaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForcaTests.release.xcconfig"; path = "Target Support Files/Pods-ForcaTests/Pods-ForcaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D144E4E22531DC2900187EAC /* JogoDaForcaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaForcaTests.swift; sourceTree = "<group>"; };
+		D144E4EF2531DE9C00187EAC /* String+Comparavel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Comparavel.swift"; sourceTree = "<group>"; };
+		D144E4F42531DF5900187EAC /* Character+Comparavel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Comparavel.swift"; sourceTree = "<group>"; };
+		D16FBE78252D01420002F08D /* Forca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16FBE7B252D01420002F08D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D16FBE7D252D01420002F08D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D16FBE7F252D01420002F08D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D16FBE82252D01420002F08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D16FBE84252D01450002F08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D16FBE87252D01450002F08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D16FBE89252D01450002F08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16FBE8E252D01450002F08D /* ForcaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForcaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16FBE92252D01450002F08D /* ForcaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcaTests.swift; sourceTree = "<group>"; };
+		D16FBE94252D01450002F08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16FBE99252D01450002F08D /* ForcaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForcaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16FBE9D252D01450002F08D /* ForcaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcaUITests.swift; sourceTree = "<group>"; };
+		D16FBE9F252D01450002F08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16FBEAE252D1DEC0002F08D /* UIViewController+Teclado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Teclado.swift"; sourceTree = "<group>"; };
+		D194350F252FABA50055FD5A /* String+AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AttributedText.swift"; sourceTree = "<group>"; };
+		D1943518252FB06D0055FD5A /* JogoDaForca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaForca.swift; sourceTree = "<group>"; };
+		D1943520252FBAF00055FD5A /* Funcoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcoes.swift; sourceTree = "<group>"; };
+		E5F6885CDB587A59B91BCC81 /* Pods-Forca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forca.debug.xcconfig"; path = "Target Support Files/Pods-Forca/Pods-Forca.debug.xcconfig"; sourceTree = "<group>"; };
+		F4FE168656479D9CE81B0C2F /* Pods-Forca-ForcaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forca-ForcaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Forca-ForcaUITests/Pods-Forca-ForcaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D16FBE75252D01420002F08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC3C204D66756FD2EF7F42D /* Pods_Forca.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16FBE8B252D01450002F08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4C0E9DF09719204D796C7E /* Pods_ForcaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16FBE96252D01450002F08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822A080AC846BFADC59F7050 /* Pods_Forca_ForcaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53DD1AD8C530520CB1175913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D5196CBAC3160BBB2E5DA84 /* Pods_Forca.framework */,
+				73C72B6AEF862E6D7B247963 /* Pods_Forca_ForcaUITests.framework */,
+				6665B7CCBA0C3ECFF6155E7A /* Pods_ForcaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A03F35ECC788EC99A7B5A01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5F6885CDB587A59B91BCC81 /* Pods-Forca.debug.xcconfig */,
+				7414F2D7588B611DA87E16A2 /* Pods-Forca.release.xcconfig */,
+				F4FE168656479D9CE81B0C2F /* Pods-Forca-ForcaUITests.debug.xcconfig */,
+				365BCFB9AB967F0D10B7FCD1 /* Pods-Forca-ForcaUITests.release.xcconfig */,
+				5AFECEDACE4EB30BCB3BA796 /* Pods-ForcaTests.debug.xcconfig */,
+				AD71E529677CEB2FCD881F1A /* Pods-ForcaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D16FBE6F252D01420002F08D = {
+			isa = PBXGroup;
+			children = (
+				D16FBE7A252D01420002F08D /* Forca */,
+				D16FBE91252D01450002F08D /* ForcaTests */,
+				D16FBE9C252D01450002F08D /* ForcaUITests */,
+				D16FBE79252D01420002F08D /* Products */,
+				7A03F35ECC788EC99A7B5A01 /* Pods */,
+				53DD1AD8C530520CB1175913 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D16FBE79252D01420002F08D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D16FBE78252D01420002F08D /* Forca.app */,
+				D16FBE8E252D01450002F08D /* ForcaTests.xctest */,
+				D16FBE99252D01450002F08D /* ForcaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D16FBE7A252D01420002F08D /* Forca */ = {
+			isa = PBXGroup;
+			children = (
+				D1943517252FB05C0055FD5A /* Modelos */,
+				D194350E252FAB460055FD5A /* Extensões */,
+				D16FBE7B252D01420002F08D /* AppDelegate.swift */,
+				D16FBE7D252D01420002F08D /* SceneDelegate.swift */,
+				D16FBE7F252D01420002F08D /* ViewController.swift */,
+				D16FBE81252D01420002F08D /* Main.storyboard */,
+				D16FBE84252D01450002F08D /* Assets.xcassets */,
+				D16FBE86252D01450002F08D /* LaunchScreen.storyboard */,
+				D16FBE89252D01450002F08D /* Info.plist */,
+			);
+			path = Forca;
+			sourceTree = "<group>";
+		};
+		D16FBE91252D01450002F08D /* ForcaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D16FBE92252D01450002F08D /* ForcaTests.swift */,
+				D16FBE94252D01450002F08D /* Info.plist */,
+				D144E4E22531DC2900187EAC /* JogoDaForcaTests.swift */,
+			);
+			path = ForcaTests;
+			sourceTree = "<group>";
+		};
+		D16FBE9C252D01450002F08D /* ForcaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D16FBE9D252D01450002F08D /* ForcaUITests.swift */,
+				D16FBE9F252D01450002F08D /* Info.plist */,
+			);
+			path = ForcaUITests;
+			sourceTree = "<group>";
+		};
+		D194350E252FAB460055FD5A /* Extensões */ = {
+			isa = PBXGroup;
+			children = (
+				D1943520252FBAF00055FD5A /* Funcoes.swift */,
+				D16FBEAE252D1DEC0002F08D /* UIViewController+Teclado.swift */,
+				D194350F252FABA50055FD5A /* String+AttributedText.swift */,
+				D144E4EF2531DE9C00187EAC /* String+Comparavel.swift */,
+				D144E4F42531DF5900187EAC /* Character+Comparavel.swift */,
+			);
+			name = "Extensões";
+			path = "Extensões";
+			sourceTree = "<group>";
+		};
+		D1943517252FB05C0055FD5A /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				D1943518252FB06D0055FD5A /* JogoDaForca.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D16FBE77252D01420002F08D /* Forca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D16FBEA2252D01450002F08D /* Build configuration list for PBXNativeTarget "Forca" */;
+			buildPhases = (
+				3CCAAA9AEEF1B11920F4C840 /* [CP] Check Pods Manifest.lock */,
+				D16FBE74252D01420002F08D /* Sources */,
+				D16FBE75252D01420002F08D /* Frameworks */,
+				D16FBE76252D01420002F08D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Forca;
+			productName = Forca;
+			productReference = D16FBE78252D01420002F08D /* Forca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D16FBE8D252D01450002F08D /* ForcaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D16FBEA5252D01450002F08D /* Build configuration list for PBXNativeTarget "ForcaTests" */;
+			buildPhases = (
+				CA94F9D7F1689A646D34086A /* [CP] Check Pods Manifest.lock */,
+				D16FBE8A252D01450002F08D /* Sources */,
+				D16FBE8B252D01450002F08D /* Frameworks */,
+				D16FBE8C252D01450002F08D /* Resources */,
+				4D0CFE7E0D13F9E4330AEA97 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D16FBE90252D01450002F08D /* PBXTargetDependency */,
+			);
+			name = ForcaTests;
+			productName = ForcaTests;
+			productReference = D16FBE8E252D01450002F08D /* ForcaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D16FBE98252D01450002F08D /* ForcaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D16FBEA8252D01450002F08D /* Build configuration list for PBXNativeTarget "ForcaUITests" */;
+			buildPhases = (
+				3169A72C6A16CE22DB04F989 /* [CP] Check Pods Manifest.lock */,
+				D16FBE95252D01450002F08D /* Sources */,
+				D16FBE96252D01450002F08D /* Frameworks */,
+				D16FBE97252D01450002F08D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D16FBE9B252D01450002F08D /* PBXTargetDependency */,
+			);
+			name = ForcaUITests;
+			productName = ForcaUITests;
+			productReference = D16FBE99252D01450002F08D /* ForcaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D16FBE70252D01420002F08D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D16FBE77252D01420002F08D = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D16FBE8D252D01450002F08D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D16FBE77252D01420002F08D;
+					};
+					D16FBE98252D01450002F08D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = D16FBE77252D01420002F08D;
+					};
+				};
+			};
+			buildConfigurationList = D16FBE73252D01420002F08D /* Build configuration list for PBXProject "Forca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D16FBE6F252D01420002F08D;
+			productRefGroup = D16FBE79252D01420002F08D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D16FBE77252D01420002F08D /* Forca */,
+				D16FBE8D252D01450002F08D /* ForcaTests */,
+				D16FBE98252D01450002F08D /* ForcaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D16FBE76252D01420002F08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16FBE88252D01450002F08D /* LaunchScreen.storyboard in Resources */,
+				D16FBE85252D01450002F08D /* Assets.xcassets in Resources */,
+				D16FBE83252D01420002F08D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16FBE8C252D01450002F08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16FBE97252D01450002F08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3169A72C6A16CE22DB04F989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Forca-ForcaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CCAAA9AEEF1B11920F4C840 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Forca-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0CFE7E0D13F9E4330AEA97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForcaTests/Pods-ForcaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForcaTests/Pods-ForcaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForcaTests/Pods-ForcaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA94F9D7F1689A646D34086A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForcaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D16FBE74252D01420002F08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16FBE80252D01420002F08D /* ViewController.swift in Sources */,
+				D144E4F52531DF5900187EAC /* Character+Comparavel.swift in Sources */,
+				D16FBEAF252D1DEC0002F08D /* UIViewController+Teclado.swift in Sources */,
+				D1943510252FABA50055FD5A /* String+AttributedText.swift in Sources */,
+				D16FBE7C252D01420002F08D /* AppDelegate.swift in Sources */,
+				D1943521252FBAF00055FD5A /* Funcoes.swift in Sources */,
+				D16FBE7E252D01420002F08D /* SceneDelegate.swift in Sources */,
+				D144E4F02531DE9C00187EAC /* String+Comparavel.swift in Sources */,
+				D1943519252FB06D0055FD5A /* JogoDaForca.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16FBE8A252D01450002F08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16FBE93252D01450002F08D /* ForcaTests.swift in Sources */,
+				D144E4E32531DC2900187EAC /* JogoDaForcaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16FBE95252D01450002F08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16FBE9E252D01450002F08D /* ForcaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D16FBE90252D01450002F08D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D16FBE77252D01420002F08D /* Forca */;
+			targetProxy = D16FBE8F252D01450002F08D /* PBXContainerItemProxy */;
+		};
+		D16FBE9B252D01450002F08D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D16FBE77252D01420002F08D /* Forca */;
+			targetProxy = D16FBE9A252D01450002F08D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D16FBE81252D01420002F08D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16FBE82252D01420002F08D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D16FBE86252D01450002F08D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16FBE87252D01450002F08D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D16FBEA0252D01450002F08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D16FBEA1252D01450002F08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D16FBEA3252D01450002F08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F6885CDB587A59B91BCC81 /* Pods-Forca.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VH6Z2K8J7;
+				INFOPLIST_FILE = Forca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.treinamento.ricardo.Forca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D16FBEA4252D01450002F08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7414F2D7588B611DA87E16A2 /* Pods-Forca.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VH6Z2K8J7;
+				INFOPLIST_FILE = Forca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.treinamento.ricardo.Forca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D16FBEA6252D01450002F08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFECEDACE4EB30BCB3BA796 /* Pods-ForcaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VH6Z2K8J7;
+				INFOPLIST_FILE = ForcaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.treinamento.ricardo.ForcaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forca.app/Forca";
+			};
+			name = Debug;
+		};
+		D16FBEA7252D01450002F08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD71E529677CEB2FCD881F1A /* Pods-ForcaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VH6Z2K8J7;
+				INFOPLIST_FILE = ForcaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.treinamento.ricardo.ForcaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forca.app/Forca";
+			};
+			name = Release;
+		};
+		D16FBEA9252D01450002F08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FE168656479D9CE81B0C2F /* Pods-Forca-ForcaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VH6Z2K8J7;
+				INFOPLIST_FILE = ForcaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.treinamento.ricardo.ForcaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Forca;
+			};
+			name = Debug;
+		};
+		D16FBEAA252D01450002F08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365BCFB9AB967F0D10B7FCD1 /* Pods-Forca-ForcaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VH6Z2K8J7;
+				INFOPLIST_FILE = ForcaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cwi.treinamento.ricardo.ForcaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Forca;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D16FBE73252D01420002F08D /* Build configuration list for PBXProject "Forca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16FBEA0252D01450002F08D /* Debug */,
+				D16FBEA1252D01450002F08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16FBEA2252D01450002F08D /* Build configuration list for PBXNativeTarget "Forca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16FBEA3252D01450002F08D /* Debug */,
+				D16FBEA4252D01450002F08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16FBEA5252D01450002F08D /* Build configuration list for PBXNativeTarget "ForcaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16FBEA6252D01450002F08D /* Debug */,
+				D16FBEA7252D01450002F08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16FBEA8252D01450002F08D /* Build configuration list for PBXNativeTarget "ForcaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16FBEA9252D01450002F08D /* Debug */,
+				D16FBEAA252D01450002F08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D16FBE70252D01420002F08D /* Project object */;
+}

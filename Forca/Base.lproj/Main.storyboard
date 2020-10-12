@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Forca" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forca" translatesAutoresizingMaskIntoConstraints="NO" id="PNY-wQ-sb9">
+                                <rect key="frame" x="114.5" y="25" width="146" height="265"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFd-sf-Yb2">
+                                <rect key="frame" x="326" y="25" width="24" height="24"/>
+                                <state key="normal" image="Vector"/>
+                                <connections>
+                                    <action selector="toqueBotaoRecomecar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="45m-PY-tEf"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bonecao_fase_1" translatesAutoresizingMaskIntoConstraints="NO" id="Zys-WO-3Nr">
+                                <rect key="frame" x="182" y="136" width="94" height="42"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="dtT-J4-lKY">
+                                <rect key="frame" x="114.5" y="318" width="146" height="241.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A dica é: ANIMAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHm-yg-ABR">
+                                        <rect key="frame" x="7.5" y="0.0" width="131.5" height="18.5"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_ _ _ _ _" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7t4-gt-41l">
+                                        <rect key="frame" x="11.5" y="40.5" width="123.5" height="30.5"/>
+                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u5V-XV-4Jm">
+                                        <rect key="frame" x="55.5" y="93" width="35.5" height="34"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="textoAlterado:" destination="BYZ-38-t0r" eventType="editingChanged" id="kkP-03-Nrf"/>
+                                            <action selector="toqueTecladoConcluido:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Q9L-Ii-qGg"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chutes anteriores" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ckj-vI-nGd">
+                                        <rect key="frame" x="0.0" y="149" width="146" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sU8-wI-R0L">
+                                        <rect key="frame" x="48" y="191.5" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="fundo"/>
+                        <constraints>
+                            <constraint firstItem="dtT-J4-lKY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="38e-H4-Tpv"/>
+                            <constraint firstItem="Zys-WO-3Nr" firstAttribute="top" secondItem="PNY-wQ-sb9" secondAttribute="top" constant="113" id="KSG-Nt-iGJ"/>
+                            <constraint firstItem="Zys-WO-3Nr" firstAttribute="trailing" secondItem="PNY-wQ-sb9" secondAttribute="trailing" constant="-8" id="R1D-aj-nHz"/>
+                            <constraint firstItem="pFd-sf-Yb2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="VW4-wG-ehC"/>
+                            <constraint firstItem="PNY-wQ-sb9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W5t-q7-WTB"/>
+                            <constraint firstItem="PNY-wQ-sb9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="iLV-c3-BcN"/>
+                            <constraint firstItem="dtT-J4-lKY" firstAttribute="top" secondItem="PNY-wQ-sb9" secondAttribute="bottom" constant="28" id="ou9-s6-zjw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pFd-sf-Yb2" secondAttribute="trailing" constant="25" id="sXA-eD-B6h"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bonecoImageView" destination="Zys-WO-3Nr" id="t2h-cz-qdI"/>
+                        <outlet property="chutesLabel" destination="sU8-wI-R0L" id="enO-fQ-anD"/>
+                        <outlet property="dicaLabel" destination="hHm-yg-ABR" id="mdL-6d-BJW"/>
+                        <outlet property="letraTextField" destination="u5V-XV-4Jm" id="ctq-UX-ESK"/>
+                        <outlet property="palavraMascaradaLabel" destination="7t4-gt-41l" id="5qg-ao-697"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Vector" width="24" height="24"/>
+        <image name="bonecao_fase_1" width="44" height="35"/>
+        <image name="forca" width="146" height="265"/>
+        <namedColor name="fundo">
+            <color red="0.95300000905990601" green="0.91399997472763062" blue="0.86299997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
